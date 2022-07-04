@@ -11,6 +11,8 @@
 		11E224932872DF15001075BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E224922872DF15001075BE /* ContentView.swift */; };
 		11E224952872DF16001075BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E224942872DF16001075BE /* Assets.xcassets */; };
 		11E224982872DF16001075BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E224972872DF16001075BE /* Preview Assets.xcassets */; };
+		11E2249F2872DF72001075BE /* DoCatchTryAndThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E2249E2872DF72001075BE /* DoCatchTryAndThrows.swift */; };
+		11E224A12872E002001075BE /* DownloadImagesUsingAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E224A02872E002001075BE /* DownloadImagesUsingAsyncAwait.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		11E224922872DF15001075BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11E224942872DF16001075BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E224972872DF16001075BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11E2249E2872DF72001075BE /* DoCatchTryAndThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryAndThrows.swift; sourceTree = "<group>"; };
+		11E224A02872E002001075BE /* DownloadImagesUsingAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesUsingAsyncAwait.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		11E2248F2872DF15001075BE /* SwiftUI-Bootcamp_Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				11E2249E2872DF72001075BE /* DoCatchTryAndThrows.swift */,
+				11E224A02872E002001075BE /* DownloadImagesUsingAsyncAwait.swift */,
 				11E224902872DF15001075BE /* SwiftUI_Bootcamp_ConcurrencyApp.swift */,
 				11E224922872DF15001075BE /* ContentView.swift */,
 				11E224942872DF16001075BE /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				11E224932872DF15001075BE /* ContentView.swift in Sources */,
 				11E224912872DF15001075BE /* SwiftUI_Bootcamp_ConcurrencyApp.swift in Sources */,
+				11E224A12872E002001075BE /* DownloadImagesUsingAsyncAwait.swift in Sources */,
+				11E2249F2872DF72001075BE /* DoCatchTryAndThrows.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
